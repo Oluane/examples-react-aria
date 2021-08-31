@@ -14,3 +14,47 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section{
+  width: 80%;
+  margin: 0 auto 5rem;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+
+.evenly{
+ justify-content: space-evenly;
+}
+
+.btn {
+  width: 25%;
+  padding: 0.75rem 0.5rem;
+  background-color: transparent;
+  border: solid 1px black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.link{
+  font-weight: 600;
+}
+
+.link:visited {
+  color: purple;
+}
+
+.link:hover{
+  text-decoration: underline;
+}
